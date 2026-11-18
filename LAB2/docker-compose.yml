@@ -2,7 +2,7 @@ services:
  nginx:
       image: nginx:latest
       ports:
-      - "8000:80"
+      - "8800:80"
       volumes:
-      - ../LAB1:/usr/share/nginx/html
+      - ./html:/usr/share/nginx/html
   
